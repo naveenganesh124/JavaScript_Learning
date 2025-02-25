@@ -20,4 +20,25 @@ let str = "Naveen is young and energtic "
 
 console.log(str.concat("and he is working in banglore")) // it will include the string into the str
 
+//trim
+
+let str1 ="               hello            world     "
+ console.log(str1.trim()); // it will remove the leading space from starting and ending
+
+//IndexOF
+
+let stringIndex = "Naveen and vijay are friends"
+ 
+console.log(stringIndex.indexOf('e'));  // it will return the first index of the given value
+console.log(stringIndex.lastIndexOf('e')) // it will return the last indec of the given value
+
+
+//startsWith and endswith
+
+let strwi = "time is gold"
+
+console.log(strwi.startsWith('r'));  // return t or f,by checking starting character of the given string
+console.log(strwi.endsWith('d')); // return t or f,by checking ending character of the given string
+
+
 
